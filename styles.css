@@ -62,3 +62,7 @@ p { margin: 0 0 20px; max-width: 650px; }
   .header-inner { padding: 0 0 24px; }
   .site-main { padding: 0; grid-template-columns: 130px minmax(0, 1fr); gap: 28px; }
 }
+
+.site-main.text-only {
+  grid-template-columns: minmax(0, 1fr);
+}
